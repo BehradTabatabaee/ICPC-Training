@@ -1,10 +1,10 @@
 given = 'given'
 taken = 'taken'
-mf = 0
+motherF = 0
 while True:
     try:
         n = int(input())
-        if mf != 0:
+        if motherF != 0:
             print()
         friends = dict()
         names = input().split(' ')
@@ -22,6 +22,6 @@ while True:
                 num -= 1
         for i in names:
             print(f'{i} {friends[i][taken] - friends[i][given]}')
-        mf += 1
+        motherF += 1
     except EOFError:
         break
