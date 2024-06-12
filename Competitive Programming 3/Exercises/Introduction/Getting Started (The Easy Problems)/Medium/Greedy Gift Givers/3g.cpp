@@ -1,5 +1,5 @@
 #include <iostream>
-#include <map>
+#include <unordered_map>
 #include <vector>
 #include <string>
 #include <sstream>
@@ -20,7 +20,7 @@ int main() {
         }
         cin.ignore();
 
-        map<string, map<string, int>> friends;
+        unordered_map<string, unordered_map<string, int>> friends;
         string line;
         getline(cin, line);
         istringstream namesStream(line);
