@@ -15,7 +15,7 @@ int main() {
             if (c == '0') {
                 table[size] = size? 0 + table[size - 1] : 0;
                 num[size] = 0;
-            }    
+            }
             if (c == '1') {
                 table[size] = size? 1 + table[size - 1] : 1;
                 num[size] = 1;
