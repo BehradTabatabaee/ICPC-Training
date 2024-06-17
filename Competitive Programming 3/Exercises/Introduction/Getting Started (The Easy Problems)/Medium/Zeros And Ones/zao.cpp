@@ -5,9 +5,9 @@ using namespace std;
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    string s;
+    string str;
     int test = 1;
-    while (getline(cin,s)) {
+    while (getline(cin,str)) {
         int cases;
         cin >> cases;
         cout << "Case " << test++ << ":" << endl;
@@ -16,11 +16,11 @@ int main() {
             bool flag = true;
             cin >> l >> r;
             cin.ignore();
-            int start = min(l,r);
+            int s = min(l,r);
             int e = max(l,r);
-            char c = s[start];
-            for (int j = start + 1; j <= e; j++) {
-                if (s[j] != c) {
+            char c = str[s];
+            for (int j = s + 1; j <= e; j++) {
+                if (str[j] != c) {
                     flag = false;
                     break;
                 }
