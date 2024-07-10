@@ -10,7 +10,8 @@ In our pursuit of excellence, we've structured this folder to include resources 
 - **Books**: Digital copies of the books for reference.
   - *Competitive Programming 3*
   - *Competitive Programming 4*
-- **Exercises**: Our solutions to the problems and exercises from *Competitive Programming 4*.
+- **Exercises**: Our solutions to the end-of-section problems from *Competitive Programming 4*.
+- **Examples**: Our solutions to the example questions used inside the textbook to explain programming concepts and techniques from *Competitive Programming 4*.
 
 ### Our Goals
 We aim to thoroughly study and learn from *Competitive Programming 4* while applying our knowledge by solving problems from the book. Our goal is to complete this challenge by summer, laying a robust foundation in a broad spectrum of topics essential for competitive programming.
