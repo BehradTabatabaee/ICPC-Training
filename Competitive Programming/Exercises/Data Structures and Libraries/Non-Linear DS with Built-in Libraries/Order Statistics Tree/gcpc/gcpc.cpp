@@ -38,7 +38,6 @@ int main() {
         tree.insert(make_pair(team, teams[team]));
         cout << tree.order_of_key(make_pair(1, teams[1])) + 1 << endl;
     }
-    
 
     return 0;
 }
