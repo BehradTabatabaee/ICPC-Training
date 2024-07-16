@@ -20,7 +20,7 @@ int main() {
     
     typedef tree<pair<int, pair<int, int>>, null_type, decltype(comp), rb_tree_tag,
                  tree_order_statistics_node_update> ost;
-    
+
     ost tree(comp);
     vector<pair<int, int>> teams(n + 1);
     
